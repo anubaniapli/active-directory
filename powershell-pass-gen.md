@@ -1,7 +1,7 @@
-
+Dynamic Secure Password Generation For Powershell
 ====================================================================================================
 
-Dynamic Secure Password Generation For Powershell
+This PowerShell script generates a highly secure, cryptographically random 20-character password and stores it safely in memory. It ensures the password contains a mix of uppercase letters, lowercase letters, numbers, and symbols.
 
 ```
 
@@ -43,3 +43,4 @@ foreach ($char in $passwordChars) {
 $SafeModePassword.MakeReadOnly()
 
 ```
+
